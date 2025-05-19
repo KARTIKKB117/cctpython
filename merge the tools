@@ -1,0 +1,6 @@
+text = "AABCAAADA"
+k = 3
+
+for i in range(0, len(text), k):
+    part = text[i:i+k]
+    print(part)
