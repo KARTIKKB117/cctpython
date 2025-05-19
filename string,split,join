@@ -1,0 +1,4 @@
+line = "Python is awesome"
+words = line.split()
+joined = "-".join(words)
+print(joined)
