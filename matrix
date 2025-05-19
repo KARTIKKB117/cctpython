@@ -1,0 +1,10 @@
+matrix = [
+    "Tsi",
+    "h%x",
+    "i #"
+]
+
+for i in range(len(matrix[0])):
+    for row in matrix:
+        print(row[i], end="")
+print()
