@@ -1,0 +1,6 @@
+import re
+
+def is_valid_pin(pin):
+    return bool(re.fullmatch(r"[1-9][0-9]{5}", pin))
+
+print(is_valid_pin("560001"))
