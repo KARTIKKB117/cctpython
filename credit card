@@ -1,0 +1,5 @@
+def is_valid_card(card):
+    card = card.replace(" ", "")
+    return card.isdigit() and 13 <= len(card) <= 19
+
+print(is_valid_card("1234 5678 9012 3456"))
